@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.10
+Pillow>=10
+tifffile>=2023.7
+tqdm>=4.65
+# Install the tested CUDA PyTorch build and SAM2 from the included runtime,
+# rather than letting pip silently replace the server CUDA environment.

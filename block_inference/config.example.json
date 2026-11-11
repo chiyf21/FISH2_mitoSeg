@@ -1,0 +1,24 @@
+{
+  "raw": "/absolute/path/to/raw_zyx.npy",
+  "output": "/absolute/path/to/new_output",
+  "bbox_xyz": null,
+  "origin_xyz": [0, 0, 0],
+  "spacing_xyz_nm": [8, 8, 30],
+  "gpu": 0,
+  "gpu_memory_fraction": 0.4,
+  "cpu_threads": 4,
+  "raw_cache_mib": 512,
+  "execution_optimizations": {
+    "gpu_temporal_memory": true,
+    "cpu_prefetch_steps": 1,
+    "defer_encoder_timing_sync": true,
+    "encoder_cache_gib": 2
+  },
+  "models": {
+    "detector": "models/detector_frozen.pt",
+    "nucleus": "models/nucleus_best.pt",
+    "sam2_base": "models/sam2.1_hiera_base_plus.pt",
+    "video": "models/video_sam_best.pt",
+    "sam2_code": "vendor/sam2"
+  }
+}

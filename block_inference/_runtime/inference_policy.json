@@ -1,0 +1,10 @@
+{
+  "version": "1.1-score05",
+  "score_threshold": 0.5,
+  "score_stop_count": 1,
+  "stop_comparison": "strictly_less_than",
+  "exclude_low_score_frame": true,
+  "scope": "all directions in local/global production workers",
+  "previous_threshold": 0.4,
+  "existing_results_overwritten": false
+}
